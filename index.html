@@ -8,18 +8,11 @@
     <header></header>
     <main>
     <script>
-    const script = document.createElement('script');
- 
-script.src = 'https://ipinfo.io?callback=callback';
-document.body.appendChild(script);
-document.body.removeChild(script);
-      
-      function callback(data) {
- 
-    console.log(data.ip);
- 
-}
-    
+console.log(window.location.href);
+console.log(window.navigator.appAname);
+console.log(window.navigator.appVersion);
+console.log(window.screen.width);
+console.log(window.screen.height);
     </script>
     </main>
     <footer></footer>
