@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">   
+    <title>情報取得</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+    <script>
+    const script = document.createElement('script');
+ 
+script.src = 'https://ipinfo.io?callback=callback';
+document.body.appendChild(script);
+document.body.removeChild(script);
+    </script>
+    </main>
+    <footer></footer>
+  </body>
+</html>
