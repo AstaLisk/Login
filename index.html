@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>JavaScriptとPHPでIP取得</h1>
-<script type="text/javascript" src="./ip-php.php"></script>
-<script>
-document.write('<P>javascriptでのIP表示:' + IP + '</P>');
-</script>
+<h1>Loginサービス</h1>
+
+  <script>
+    <script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
+  </script>
+  
+  <input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
 </body>
 </html>
